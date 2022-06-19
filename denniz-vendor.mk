@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/denniz
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/denniz/proprietary/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
     vendor/oneplus/denniz/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/oneplus/denniz/proprietary/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
     vendor/oneplus/denniz/proprietary/framework/mediatek-ims-legacy.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-legacy.jar \
